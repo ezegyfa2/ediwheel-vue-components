@@ -1,0 +1,26 @@
+@import 'ediwheel-vue-components/GlobalComponents/globals.scss';
+
+.link {
+    color: $primaryColor;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family: $primaryFontFamily;
+    line-height: 20px;
+    margin-right: 1rem !important;
+    margin-left: 1rem !important;
+}
+
+@media (max-width: 1191.99px) {
+    .link {
+        margin-right: 0 !important;
+    }
+}
+@media (min-width: 1200px) {
+    .link {
+        margin-right: 1rem !important;
+    }
+}
+.link:hover {
+    color: white;
+}

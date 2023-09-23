@@ -1,0 +1,55 @@
+@import 'ediwheel-vue-components/GlobalComponents/globals.scss';
+
+img {
+    width: 100%;
+    box-shadow: 0 0 5px 0 #cccccc;
+}
+@media (max-width: 575.99px) {
+    img {
+        height: 250px;
+    }
+}
+@media (min-width: 576px) {
+    img {
+        height: 300px;
+    }
+}
+@media (min-width: 768px) {
+    img {
+        height: 400px;
+    }
+}
+@media (min-width: 992px) {
+    img {
+        height: 300px;
+    }
+}
+@media (min-width: 1200px) {
+    img {
+        height: 350px;
+    }
+}
+@media (min-width: 1400px) {
+    img {
+        height: 400px;
+    }
+}
+
+@media (max-width: 992px) {
+    .description-text {
+        padding: 2rem;
+    }
+}
+$border: 0.5rem solid $primaryColor;
+$borderWidth: 2rem;
+@media (min-width: 992px) {
+    //Dynamic css values
+    .left-border {
+        border-left: $border;
+        padding: 0 0 0 $borderWidth;
+    }
+    .right-border {
+        border-right: $border;
+        padding: 0 $borderWidth 0 0;
+    }
+}

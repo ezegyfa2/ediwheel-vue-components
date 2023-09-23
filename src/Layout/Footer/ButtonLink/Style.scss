@@ -1,0 +1,12 @@
+@import 'helper-vue-components/IconLinks/ButtonIconLink2/Style.scss';
+@import 'ediwheel-vue-components/GlobalComponents/globals.scss';
+
+.btn-dark {
+    color: $baseColor;
+    background-color: $primaryColor;
+    border-color: $primaryColor;
+}
+.btn-dark:hover {
+    background-color: white;
+    border-color: white;
+}

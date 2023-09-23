@@ -1,0 +1,10 @@
+@import 'ediwheel-vue-components/GlobalComponents/globals.scss';
+@import 'helper-vue-components/IconLinks/ButtonIconLink/Style.scss';
+
+.btn-social {
+    background-color: $baseColor;
+}
+.btn-social:hover {
+    background-color: $primaryColor;
+    border: 1px solid $primaryColor;
+}

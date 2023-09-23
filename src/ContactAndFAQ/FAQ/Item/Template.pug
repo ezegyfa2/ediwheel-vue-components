@@ -1,0 +1,16 @@
+.card.fadeInUp(data-wow-delay='0.2s' style='visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;')
+    .card-header
+        h6.collapsed(
+            v-bind:id='headId'
+            data-toggle='collapse' 
+            v-bind:data-target='"#" + collapseId' 
+            aria-expanded='false' 
+            aria-controls='collapseOne'
+        )
+            | {{ title }}
+    .collapse(
+        v-bind:id='collapseId'
+        aria-labelledby='"#" + headId' 
+    )
+        .card-body
+            p {{ content }}

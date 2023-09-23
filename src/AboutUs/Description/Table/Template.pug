@@ -1,0 +1,15 @@
+.tablecontainer
+    ediwheel-small-text-content(
+        v-bind:title='title'
+        v-bind:content='subtitle'
+    )
+    vue-table(
+        v-bind:column_names='column_names'
+        v-bind:rows='rows'
+        v-bind:with_footer='with_footer'
+    )
+    ediwheel-two-title-text-content(
+        v-for='footer_text in footer_texts'
+        v-bind:content='footer_text'
+        v-bind:added_classes='footerTextClass'
+    )

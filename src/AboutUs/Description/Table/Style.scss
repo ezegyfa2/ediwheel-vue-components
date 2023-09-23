@@ -1,0 +1,14 @@
+@import "ediwheel-vue-components/GlobalComponents/globals.scss";
+
+th {
+    @extend .primary-text;
+    color: $baseColor;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+td {
+    @extend .secondary-text;
+    color: $grayColor;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}

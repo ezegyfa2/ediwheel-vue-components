@@ -1,0 +1,40 @@
+@import "ediwheel-vue-components/GlobalComponents/globals.scss";
+@import "helper-vue-components/NavigationBar/CollapsableNavigationBar/Style.scss";
+
+.navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgba($baseColor, 0.7);
+}
+
+.navbar.navbar-shrink {
+    background-color: $baseColor;
+    opacity: 0.9;
+}
+
+.navbar-brand {
+    @extend .primary-text;
+    color: $primaryColor;
+    letter-spacing: 0.0625em;
+    font-family: ui-monospace;
+    font-size: xx-large;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(0, #C1A302, #F1F303);
+}
+
+.navbar-toggler .fa-bars {
+    margin-left: 0.5rem;
+}
+
+.navbar-toggler {
+    background-color: #F1D302;
+    color: #020100;
+}
+
+.navbar-nav {
+    text-align: right;
+}

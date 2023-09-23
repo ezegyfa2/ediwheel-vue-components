@@ -1,0 +1,16 @@
+@import "ediwheel-vue-components/GlobalComponents/globals.scss";
+
+.text-content {
+    padding: 4rem 0;
+}
+.title {
+    color: $baseColor;
+    font-family: $secondaryFontFamily;
+    font-weight: bold;
+}
+.content {
+    color: $baseColor;
+    font-family: $secondaryFontFamily;
+    font-size: 4.5rem;
+    font-weight: bold;
+}

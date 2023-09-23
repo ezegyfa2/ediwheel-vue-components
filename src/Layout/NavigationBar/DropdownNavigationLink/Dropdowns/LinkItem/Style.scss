@@ -1,0 +1,33 @@
+@import "ediwheel-vue-components/GlobalComponents/globals";
+
+.dropdown-item {
+    @extend .primary-text;
+
+    white-space: normal;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    border: 0;
+    line-height: 1.3rem;
+
+    width: 100%;
+    clear: both;
+    color: $primaryColor;
+    text-align: inherit;
+    background-color: transparent;
+    &:active {
+        background-color: $secondaryColor;
+        color: $baseColor;
+    }
+    &:hover {
+        background-color: $secondaryColor;
+        color: $baseColor;
+    }
+}
+
+@media (max-width: 575px) {
+    .dropdown-item {
+        .text-truncate {
+            max-width: 13.375rem;
+        }
+    }
+}

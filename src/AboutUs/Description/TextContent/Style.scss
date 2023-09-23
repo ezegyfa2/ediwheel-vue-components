@@ -1,0 +1,17 @@
+@import "ediwheel-vue-components/GlobalComponents/globals.scss";
+
+.title {
+    color: $baseColor;
+    font-family: $primaryFontFamily;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+.content {
+    @extend .secondary-text;
+    color: $grayColor;
+    font-size: 1rem;
+    line-height: 1.75rem;
+}
