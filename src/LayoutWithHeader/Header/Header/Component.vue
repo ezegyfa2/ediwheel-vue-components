@@ -10,7 +10,7 @@
                 backgroundVideo: {
                     url: '/assets/header/background.mp4',
                     type: 'video/mp4',
-                    posterUrl: 'assets/dessert.png'
+                    posterUrl: 'assets/header/background.png'
                 }
             }
         }
